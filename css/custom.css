@@ -1,0 +1,14 @@
+.navbar-inverse {
+    background-color: #0F491F;
+    border-color: #080808;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.nav>li {
+    margin-left: 55px;
+}
