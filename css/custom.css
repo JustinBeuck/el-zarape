@@ -41,7 +41,6 @@ h5 {
 
 .menus {
     text-align: center;
-    height: 200px;
     font-family: 'Lobster', cursive;
 }
 
@@ -50,4 +49,28 @@ h5 {
     font-family: 'Lobster', cursive;
     font-size: 30px;
     margin-top: 30px;
+}
+
+.content {
+    padding-top: 50px;
+    background-attachment: fixed;
+    height: 600px;
+}
+
+#content2 {
+    background-image: url('../img/corona.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content3 {
+    background-image: url("http://www.zeus.aegee.org/magazine/wp-content/uploads/napoli-golfo-vesuvio.jpg");
+}
+#content4 {
+    background-image: url("http://www.tamperlock.com/blog/wp-content/uploads/2014/08/london-england.jpg");
+}
+#content5 {
+    background-image: url("http://ocdn.eu/images/pulscms/ZjU7MDQsMCwzMiwzODQsMWZhOzA2LDMyMCwxYzI_/1eb29a70dabd0994cdefaad01ca3c884.jpg");
+}
+#content6 {
+    background-image: url("http://www.zeus.aegee.org/magazine/wp-content/uploads/napoli-golfo-vesuvio.jpg");
 }
