@@ -34,6 +34,17 @@ h5 {
     background-color: #A70000;
 }
 
+.menuline {
+    height: 10px;
+    background-color: #0F491F;
+}
+
+.menus {
+    text-align: center;
+    height: 200px;
+    font-family: 'Lobster', cursive;
+}
+
 .quick {
     float: right;
     font-family: 'Lobster', cursive;
