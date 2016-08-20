@@ -5,7 +5,7 @@
     background-color: #0F491F;
     border-color: #080808;
     border-radius: 0px;
-    margin-bottom: 0px;
+    /*margin-bottom: 0px;*/
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -47,8 +47,16 @@ h5 {
 .quick {
     float: right;
     font-family: 'Lobster', cursive;
-    font-size: 30px;
+    font-size: 1.425em;
     margin-top: 30px;
+}
+
+@media screen and (max-width: 375px){
+    .quick {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
 }
 
 .content {
@@ -73,4 +81,8 @@ h5 {
 }
 #content6 {
     background-image: url("http://www.zeus.aegee.org/magazine/wp-content/uploads/napoli-golfo-vesuvio.jpg");
+}
+
+li:hover {
+    background-color: red !important;
 }
